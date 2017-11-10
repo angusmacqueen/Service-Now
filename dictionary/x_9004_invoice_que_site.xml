@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Site" max_length="40" name="x_9004_invoice_que_site" type="collection">
+        <element label="Site Description" mandatory="true" max_length="100" name="site_description" spell_check="true" type="string"/>
+        <element display="true" label="Site Number" mandatory="true" max_length="2" name="site_number" type="integer" unique="true"/>
+        <index name="index">
+            <element name="site_number"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="incident" version="2" view="service_desk">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>39c37218711854002a29aab2216205cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>caller_id</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>b9c37218711854002a29aab2216205cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>category</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>3dc37218711854002a29aab2216205cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>bdc37218711854002a29aab2216205cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>incident_state</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>31c37218711854002a29aab2216205d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>escalation</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>b1c37218711854002a29aab2216205d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>35c37218711854002a29aab2216205d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="incident" element="NULL" name="incident" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b5c37218711854002a29aab2216205cf</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>goddards</sys_created_by>
+            <sys_created_on>2011-08-01 14:11:36</sys_created_on>
+            <sys_id>b5c37218711854002a29aab2216205d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>goddards</sys_updated_by>
+            <sys_updated_on>2011-08-01 14:11:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>incident</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-27 13:58:13</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d2017f137860740557f772a53990eb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+            <sys_update_name>sys_ui_list_incident_service_desk</sys_update_name>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-27 13:58:13</sys_updated_on>
+            <sys_user display_value="Angus MacQueen">12aa56ac4a3623230147cfce078a633e</sys_user>
+            <view display_value="Service Desk" name="service_desk">06eac7594a3623280131f3581e2f56a7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

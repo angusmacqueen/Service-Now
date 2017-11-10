@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <address_list/>
+        <condition/>
+        <conditional>false</conditional>
+        <group_list/>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Invoice Query URL</name>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>XLSX</output_type>
+        <report display_value="Invoice Query URL">3496e69a4f790700721734828110c739</report>
+        <report_body/>
+        <report_title/>
+        <run_as display_value="Angus MacQueen">12aa56ac4a3623230147cfce078a633e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2017-10-16 13:58:00</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>macqueena</sys_created_by>
+        <sys_created_on>2017-10-16 13:58:25</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>26a62e9a4f790700721734828110c7cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Invoice Query URL</sys_name>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_update_name>sysauto_report_26a62e9a4f790700721734828110c7cd</sys_update_name>
+        <sys_updated_by>macqueena</sys_updated_by>
+        <sys_updated_on>2017-11-07 09:34:21</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list>12aa56ac4a3623230147cfce078a633e</user_list>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>resolution_code</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>macqueena</sys_created_by>
+        <sys_created_on>2017-10-11 14:17:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>feda34344fbd8300721734828110c782</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>resolution_code</sys_name>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_update_name>sys_ui_policy_action_feda34344fbd8300721734828110c782</sys_update_name>
+        <sys_updated_by>macqueena</sys_updated_by>
+        <sys_updated_on>2017-10-11 14:17:17</sys_updated_on>
+        <table>x_9004_invoice_que_invoice_query_table</table>
+        <ui_policy display_value="Make Closed Notes Mandatory">5a992190db110300f5bdf91ebf961914</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

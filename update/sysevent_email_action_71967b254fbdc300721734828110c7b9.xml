@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_9004_invoice_que_invoice_query_table</collection>
+        <condition table="x_9004_invoice_que_invoice_query_table">waiting_forCHANGESTOSupplier^EQ<item endquery="false" field="waiting_for" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Supplier"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <description>Invoice Query to Supplier</description>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Please respond directly to this email with a detailed explanation of the query resolution and attach a copy of credit note / re-invoice where applicable</p>
+<p>Invoice Number: ${supplier_invoice_number}</p>
+<p>Invoice Date: ${supplier_invoice_date}</p>
+<p>Query Type: ${query_type}</p>
+<p>Customer: ${customer}</p>
+<p>${customer_name}</p>
+<p>Invoice Value: ${invoice_value_currency} ${invoice_value}</p>
+<p>Amount in Query: ${amount_in_query_currency} ${amount_in_query}</p>
+<p>Query Description: ${query_description}</p>
+<p>Please quote ${number} in any correspondence</p>
+<p>Yusen Contact: ${query_admin}</p>
+<p>Special Notes: ${notes_for_operations_or_supplier}</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Invoice Query to Supplier</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>supplier.supplier_email_address,supplier.secondary_email_address,supplier.third_email_address</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Yusen AP-IQ: ${number} for invoice number ${supplier_invoice_number}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>macqueena</sys_created_by>
+        <sys_created_on>2017-10-14 11:51:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>71967b254fbdc300721734828110c7b9</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Invoice Query to Supplier</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_update_name>sysevent_email_action_71967b254fbdc300721734828110c7b9</sys_update_name>
+        <sys_updated_by>macqueena</sys_updated_by>
+        <sys_updated_on>2017-11-10 11:12:56</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

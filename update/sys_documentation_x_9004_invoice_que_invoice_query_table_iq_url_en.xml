@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="iq_url" label="URL for Query" language="en" table="x_9004_invoice_que_invoice_query_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>iq_url</element>
+            <help/>
+            <hint/>
+            <label>URL for Query</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <plural>URL for Queries</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-16 13:50:50</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>66f4229a4f790700721734828110c7a7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>URL for Query</sys_name>
+            <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+            <sys_update_name>sys_documentation_x_9004_invoice_que_invoice_query_table_iq_url_en</sys_update_name>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-16 13:53:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

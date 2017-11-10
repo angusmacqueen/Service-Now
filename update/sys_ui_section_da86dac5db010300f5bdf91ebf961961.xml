@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Invoice Query" section_id="da86dac5db010300f5bdf91ebf961961" sys_domain="global" table="x_9004_invoice_que_invoice_query_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ac6f7724f354700721734828110c731</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>1</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bac6f7724f354700721734828110c731</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>2</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ec6f7724f354700721734828110c731</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>query_admin</element>
+            <position>3</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bec6f7724f354700721734828110c731</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>current_owner</element>
+            <position>4</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>32c6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>b2c6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>waiting_for</element>
+            <position>6</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>36c6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>b6c6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier</element>
+            <position>8</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ac6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier.supplier_email_address</element>
+            <position>9</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bac6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplier.coda_supplier_account</element>
+            <position>10</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ec6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site</element>
+            <position>11</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bec6f7724f354700721734828110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_activity</element>
+            <position>12</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>32c6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer</element>
+            <position>13</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>b2c6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>customer_name</element>
+            <position>14</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>36c6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>15</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>b6c6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>16</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ac6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bac6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notes_for_operations_or_supplier</element>
+            <position>18</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>3ec6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>iq_url</element>
+            <position>19</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-18 09:05:15</sys_created_on>
+            <sys_id>bec6f7724f354700721734828110c733</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Invoice Query" display_value="Invoice Query" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">da86dac5db010300f5bdf91ebf961961</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-18 09:05:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Invoice Query</caption>
+            <header>false</header>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-05 08:48:16</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>da86dac5db010300f5bdf91ebf961961</sys_id>
+            <sys_mod_count>29</sys_mod_count>
+            <sys_name>Invoice Query</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+            <sys_update_name>sys_ui_section_da86dac5db010300f5bdf91ebf961961</sys_update_name>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-19 10:08:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Business Activity" max_length="40" name="x_9004_invoice_que_business_activity" type="collection">
+        <element attributes="format=none" display="true" label="Business Activity" mandatory="true" max_length="4" name="business_activity" type="integer" unique="true"/>
+        <element label="Business Activity Description" mandatory="true" max_length="100" name="business_activity_description" spell_check="true" type="string"/>
+        <index name="index">
+            <element name="business_activity"/>
+        </index>
+    </element>
+</database>

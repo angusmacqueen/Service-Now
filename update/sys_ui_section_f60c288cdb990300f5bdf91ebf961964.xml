@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Resolution" section_id="f60c288cdb990300f5bdf91ebf961964" sys_domain="global" table="x_9004_invoice_que_invoice_query_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resolution_code</element>
+            <position>0</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-13 10:25:10</sys_created_on>
+            <sys_id>e82912954f39c300721734828110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">f60c288cdb990300f5bdf91ebf961964</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-13 10:25:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>1</position>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-13 10:25:10</sys_created_on>
+            <sys_id>6c2912954f39c300721734828110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Resolution" display_value="Resolution" name="x_9004_invoice_que_invoice_query_table" sys_domain="global" view="Default view">f60c288cdb990300f5bdf91ebf961964</sys_ui_section>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-13 10:25:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Resolution</caption>
+            <header>false</header>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-09-14 08:44:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>f60c288cdb990300f5bdf91ebf961964</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Resolution</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+            <sys_update_name>sys_ui_section_f60c288cdb990300f5bdf91ebf961964</sys_update_name>
+            <sys_updated_by>macqueena</sys_updated_by>
+            <sys_updated_on>2017-10-27 08:24:48</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
