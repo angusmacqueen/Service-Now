@@ -3,7 +3,7 @@
     <element label="Supplier" max_length="40" name="x_9004_invoice_que_supplier" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Coda Supplier Account" mandatory="true" max_length="40" name="coda_supplier_account" type="string" unique="true"/>
         <element label="Secondary Email Address" max_length="100" name="secondary_email_address" type="string"/>
-        <element label="Supplier EMail Address" mandatory="true" max_length="100" name="supplier_email_address" type="string"/>
+        <element label="Supplier Email Address" mandatory="true" max_length="100" name="supplier_email_address" type="string"/>
         <element display="true" label="Supplier Name" mandatory="true" max_length="100" name="supplier_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Third Email Address" max_length="100" name="third_email_address" type="string"/>
         <index name="index">

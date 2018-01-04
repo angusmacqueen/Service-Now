@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-09-05 08:16:20</sys_created_on>
         <sys_id>5a3f4601db010300f5bdf91ebf9619ff</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-05 08:16:20</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-27 16:05:19</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_9004_invoice_que.user" name="x_9004_invoice_que.user">663f8ac5db010300f5bdf91ebf961913</user_role>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.0</version>
+        <version>1.0.4</version>
     </sys_app>
 </record_update>

@@ -42,6 +42,42 @@
             <element>customer</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Denso</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-12-19 23:26:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>675ec687db4b83009e4970cbbf961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 23:26:00</sys_updated_on>
+            <value>Denso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Neill Tools</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-12-19 23:25:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>075ec687db4b83009e4970cbbf961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 23:25:58</sys_updated_on>
+            <value>Neill Tools</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>B&amp;Q</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
@@ -168,18 +204,54 @@
             <element>customer</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Makita</label>
+            <label>Koyo</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
             <sequence>7</sequence>
             <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-12-19 22:43:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c6a40643db4b83009e4970cbbf9619e4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
+            <value>Koyo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Makita</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>8</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>55451d68dbc6c3409e4970cbbf9619e0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Makita</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mars</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>9</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-12-19 22:42:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b9748283db4b83009e4970cbbf9619f9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
+            <value>Mars</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -189,14 +261,14 @@
             <label>Morrisons</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>8</sequence>
+            <sequence>10</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>51451d68dbc6c3409e4970cbbf9619e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Morrisons</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -207,14 +279,14 @@
             <label>Philips</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>9</sequence>
+            <sequence>11</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5d451d68dbc6c3409e4970cbbf9619e1</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Philips</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -225,15 +297,33 @@
             <label>Samsung</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>10</sequence>
+            <sequence>12</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>59451d68dbc6c3409e4970cbbf9619e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Samsung</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SCC</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>13</sequence>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-26 12:44:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>49ee1927372e03002ae55ad843990eb4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
+            <value>SCC</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -243,14 +333,14 @@
             <label>Screwfix</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>11</sequence>
+            <sequence>14</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>55451d68dbc6c3409e4970cbbf9619e3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Screwfix</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -261,14 +351,14 @@
             <label>Solent</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>12</sequence>
+            <sequence>15</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>51451d68dbc6c3409e4970cbbf9619e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Solent</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -279,14 +369,14 @@
             <label>Sony</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>13</sequence>
+            <sequence>16</sequence>
             <sys_created_by>iqadmin</sys_created_by>
             <sys_created_on>2017-10-23 07:48:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>5d451d68dbc6c3409e4970cbbf9619e4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Sony</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -297,14 +387,14 @@
             <label>Other</label>
             <language>en</language>
             <name>x_9004_invoice_que_invoice_query_table</name>
-            <sequence>14</sequence>
+            <sequence>17</sequence>
             <sys_created_by>macqueena</sys_created_by>
             <sys_created_on>2017-10-18 08:24:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>527de3be4ff14700721734828110c7f9</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>iqadmin</sys_updated_by>
-            <sys_updated_on>2017-10-23 07:48:55</sys_updated_on>
+            <sys_updated_on>2017-12-19 22:43:35</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -314,16 +404,16 @@
             <sys_created_by>macqueena</sys_created_by>
             <sys_created_on>2017-10-18 08:24:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>9fa30d97dbb543409e4970cbbf961915</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_id>79d897f337a28700557f772a53990edf</sys_id>
+            <sys_mod_count>9</sys_mod_count>
             <sys_name>customer</sys_name>
             <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
             <sys_update_name>sys_choice_x_9004_invoice_que_invoice_query_table_customer</sys_update_name>
-            <sys_updated_by>macqueena</sys_updated_by>
-            <sys_updated_on>2017-10-27 08:24:47</sys_updated_on>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2017-12-19 23:26:00</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

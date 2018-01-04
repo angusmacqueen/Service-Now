@@ -47,15 +47,15 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>10ab7539dbc10300f5bdf91ebf961967</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_9004_invoice_que_query_type</sys_name>
             <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
             <sys_update_name>sys_ui_list_x_9004_invoice_que_query_type_sys_ref_list</sys_update_name>
-            <sys_updated_by>macqueena</sys_updated_by>
-            <sys_updated_on>2017-10-27 08:24:44</sys_updated_on>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:05:20</sys_updated_on>
             <sys_user/>
             <view display_value="Reference List" name="sys_ref_list">f3c582a04a36231f0125659a507cb439</view>
             <view_name/>

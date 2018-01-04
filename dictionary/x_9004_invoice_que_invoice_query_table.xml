@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true,text_index_translations=true,tree_picker=true" audit="true" display="true" extends="task" label="Invoice Query Table" max_length="40" name="x_9004_invoice_que_invoice_query_table" sizeclass="7" type="collection">
+    <element attributes="email_client=true,text_index_translations=true,tree_picker=true" audit="true" display="true" extends="task" label="Invoice Query Table" max_length="40" name="x_9004_invoice_que_invoice_query_table" sizeclass="479" type="collection">
         <element label="Amount in Query" mandatory="true" max_length="15" name="amount_in_query" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Amount in Query Currency" mandatory="true" max_length="40" name="amount_in_query_currency" type="choice">
             <choice>
@@ -17,9 +17,20 @@
             <choice>
                 <element label="BAF" sequence="0" value="BAF"/>
                 <element label="CAF" sequence="1" value="CAF"/>
-                <element label="Customs" sequence="2" value="Customs"/>
-                <element label="Demurrage" sequence="3" value="Demurrage"/>
-                <element label="Multiple" sequence="4" value="Multiple"/>
+                <element label="Carrier Security" sequence="2" value="Carrier Security"/>
+                <element label="Customs" sequence="3" value="Customs"/>
+                <element label="Demurrage" sequence="4" value="Demurrage"/>
+                <element label="Detention" sequence="5" value="Detention"/>
+                <element label="Docs Fee" sequence="6" value="Docs Fee"/>
+                <element label="Haulage" sequence="7" value="Haulage"/>
+                <element label="MFRT" sequence="8" value="MFRT"/>
+                <element label="Ocean Freight" sequence="9" value="Ocean Freight"/>
+                <element label="LO/LO" sequence="10" value="LO/LO"/>
+                <element label="Low Sulphur" sequence="11" value="Low Sulphur"/>
+                <element label="Storage" sequence="12" value="Storage"/>
+                <element label="Terminal Handling" sequence="13" value="Terminal Handling"/>
+                <element label="Waiting Time" sequence="14" value="Waiting Time"/>
+                <element label="Multiple/Other" sequence="15" value="Multiple/Other"/>
             </choice>
         </element>
         <element label="Operations Contact" mandatory="true" max_length="32" name="current_owner" reference="sys_user" type="reference"/>
@@ -36,20 +47,25 @@
         <element attributes="edge_encryption_enabled=true" choice="1" label="Customer" mandatory="true" max_length="100" name="customer" type="choice">
             <choice>
                 <element label="Arcadia" sequence="0" value="Arcadia"/>
+                <element label="Denso" sequence="0" value="Denso"/>
+                <element label="Neill Tools" sequence="0" value="Neill Tools"/>
                 <element label="B&amp;Q" sequence="1" value="B&amp;Q"/>
                 <element label="Bathstore" sequence="2" value="Bathstore"/>
                 <element label="Brother" sequence="3" value="Brother"/>
                 <element label="Clarks" sequence="4" value="Clarks"/>
                 <element label="Haier" sequence="5" value="Haier"/>
                 <element label="Halfords" sequence="6" value="Halfords"/>
-                <element label="Makita" sequence="7" value="Makita"/>
-                <element label="Morrisons" sequence="8" value="Morrisons"/>
-                <element label="Philips" sequence="9" value="Philips"/>
-                <element label="Samsung" sequence="10" value="Samsung"/>
-                <element label="Screwfix" sequence="11" value="Screwfix"/>
-                <element label="Solent" sequence="12" value="Solent"/>
-                <element label="Sony" sequence="13" value="Sony"/>
-                <element label="Other" sequence="14" value="Other"/>
+                <element label="Koyo" sequence="7" value="Koyo"/>
+                <element label="Makita" sequence="8" value="Makita"/>
+                <element label="Mars" sequence="9" value="Mars"/>
+                <element label="Morrisons" sequence="10" value="Morrisons"/>
+                <element label="Philips" sequence="11" value="Philips"/>
+                <element label="Samsung" sequence="12" value="Samsung"/>
+                <element label="SCC" sequence="13" value="SCC"/>
+                <element label="Screwfix" sequence="14" value="Screwfix"/>
+                <element label="Solent" sequence="15" value="Solent"/>
+                <element label="Sony" sequence="16" value="Sony"/>
+                <element label="Other" sequence="17" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Customer Name - please enter carefully" max_length="100" name="customer_name" type="string"/>
@@ -64,9 +80,10 @@
                 <element label="USD" sequence="5" value="USD"/>
             </choice>
         </element>
-        <element calculation="&quot;https://yusenlogisticsdev.service-now.com/x_9004_invoice_que_invoice_query_table.do?sys_id=&quot; + current.sys_id " label="URL for Query" max_length="1024" name="iq_url" type="url" virtual="true"/>
+        <element calculation="&quot;https://yusenlogisticsdev.service-now.com/x_9004_invoice_que_invoice_query_table.do?sys_id=&quot; + current.sys_id" label="URL for Query" max_length="1024" name="iq_url" type="url" virtual="true"/>
+        <element label="Link to Invoice" max_length="1024" name="link_to_invoice" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="MBL" max_length="100" name="mbl" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Multiple Charges" max_length="100" name="multiple_charges" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Multiple/Other Charges" max_length="100" name="multiple_charges" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Notes for Operations or Supplier" max_length="4000" name="notes_for_operations_or_supplier" spell_check="true" type="string"/>
         <element label="Ops Department" max_length="32" name="ops_department" reference="cmn_department" type="reference"/>
         <element label="Query Owner" mandatory="true" max_length="32" name="query_admin" reference="sys_user" type="reference"/>
@@ -74,14 +91,18 @@
         <element label="Query Type" mandatory="true" max_length="32" name="query_type" reference="x_9004_invoice_que_query_type" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution Code" max_length="40" name="resolution_code" type="string">
             <choice>
-                <element label="Test Code 1" sequence="0" value="Test Code 1"/>
-                <element label="Test Code 2" sequence="1" value="Test Code 2"/>
+                <element label="Ops - Accrual Adjusted" sequence="0" value="Ops - Accrual Adjusted"/>
+                <element label="Ops - Costs Entered" sequence="1" value="Ops - Costs Entered"/>
+                <element label="Ops - Info Provided" sequence="2" value="Ops - Info Provided"/>
+                <element label="Ops - Variance Approved" sequence="3" value="Ops - Variance Approved"/>
+                <element label="Supp - Credit Received" sequence="4" value="Supp - Credit Received"/>
+                <element label="Supp - Info Provided" sequence="5" value="Supp - Info Provided"/>
             </choice>
         </element>
         <element attributes="format=none,ref_auto_completer=AJAXTableCompleter,ref_ac_columns_search=true,ref_ac_columns=site_description" label="Site" mandatory="true" max_length="32" name="site" reference="x_9004_invoice_que_site" type="reference"/>
         <element label="Supplier" mandatory="true" max_length="32" name="supplier" reference="x_9004_invoice_que_supplier" type="reference"/>
-        <element label="Supplier Invoice Date" mandatory="true" max_length="40" name="supplier_invoice_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Supplier Invoice Number" mandatory="true" max_length="40" name="supplier_invoice_number" type="string"/>
+        <element label="Invoice Date" mandatory="true" max_length="40" name="supplier_invoice_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Invoice Number" mandatory="true" max_length="40" name="supplier_invoice_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Waiting For" max_length="40" name="waiting_for" type="choice">
             <choice>
                 <element label="Operations" sequence="0" value="Operations"/>

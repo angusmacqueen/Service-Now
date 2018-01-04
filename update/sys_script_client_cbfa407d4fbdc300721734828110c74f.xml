@@ -11,16 +11,17 @@
         <name>Invoice Query is set to 'Waiting For'1</name>
         <order/>
         <script><![CDATA[function onLoad(){}
-   if(g_form.getValue('state').indexOf('8') != -1)
-g_form.showFieldMsg("state", getMessage("State is Waiting For - please review before saving or updating"),'error');
-]]></script>
+   if(g_form.getValue('state')==20)
+g_form.showFieldMsg("state", getMessage("State is Supplier - please review before saving or updating"),'error');
+   if(g_form.getValue('state')==21)
+g_form.showFieldMsg("state", getMessage("State is Operations - please review before saving or updating"),'error');]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>macqueena</sys_created_by>
         <sys_created_on>2017-10-14 13:21:05</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cbfa407d4fbdc300721734828110c74f</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Invoice Query is set to 'Waiting For'1</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
@@ -28,8 +29,8 @@ g_form.showFieldMsg("state", getMessage("State is Waiting For - please review be
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
         <sys_update_name>sys_script_client_cbfa407d4fbdc300721734828110c74f</sys_update_name>
-        <sys_updated_by>macqueena</sys_updated_by>
-        <sys_updated_on>2017-10-16 07:34:42</sys_updated_on>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-26 12:15:25</sys_updated_on>
         <table>x_9004_invoice_que_invoice_query_table</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

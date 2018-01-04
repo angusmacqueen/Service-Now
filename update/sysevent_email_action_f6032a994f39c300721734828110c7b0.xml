@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>false</action_insert>
+        <action_insert>true</action_insert>
         <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_9004_invoice_que_invoice_query_table</collection>
-        <condition table="x_9004_invoice_que_invoice_query_table">waiting_forCHANGESTOOperations^EQ<item endquery="false" field="waiting_for" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Operations"/>
+        <condition table="x_9004_invoice_que_invoice_query_table">stateCHANGESTO21^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="21"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -29,28 +29,36 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-size: 8.5pt; color: black;">Please respond with a detailed explanation of the query resolution, either by replying directly to this email or by clicking the link and updating the 'Additional Comments'</span></p>
-<p style="text-align: start;"><span style="font-size: 8.5pt; color: black;">Click here to view ${URI}</span></p>
-<p style="text-align: start;"><span style="font-size: 8.5pt; color: black;">Supplier Invoice Number: ${supplier_invoice_number}</span></p>
-<p style="text-align: start;"><span style="font-size: 8.5pt; color: black;">Supplier Invoice Date: ${supplier_invoice_date}</span></p>
-<p style="font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px;"><span style="font-size: 8.5pt; color: black;">Invoice Value: ${invoice_value_currency}&nbsp;${invoice_value}<br /> <br /> </span></p>
-<p><span style="font-size: 8.5pt; color: black;">Amount in dispute: ${amount_in_query_currency} ${amount_in_query}<br /> <br /> </span></p>
-<p style="font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px;"><span style="font-size: 8.5pt; color: black;">Query Type: ${query_type}<br /> <br /> </span></p>
-<p style="font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px;"><span style="font-size: 8.5pt; color: black;">Query Description: ${query_description}</span></p>]]></message_html>
+        <message_html><![CDATA[<p>Please respond with a detailed explanation of the query resolution, either by replying directly to this email or by clicking the link and updating the 'Additional Comments'</p>
+<p>Click here to view ${URI}</p>
+<p>Invoice Number: ${supplier_invoice_number}</p>
+<p>Invoice Date: ${supplier_invoice_date}</p>
+<p>Query Type: ${query_type}</p>
+<p>Customer: ${customer}</p>
+<p>${customer_name}</p>
+<p>Invoice Value: ${invoice_value_currency}&nbsp;${invoice_value}</p>
+<p>Amount in Query: ${amount_in_query_currency} ${amount_in_query}</p>
+<p>Query Description: ${query_description}</p>
+<p>Query Owner: ${query_admin}</p>
+<p>Link to Invoice: ${link_to_invoice}</p>
+<p>Special Notes: ${notes_for_operations_or_supplier}</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Invoice Query to Operations</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>current_owner</recipient_fields>
+        <recipient_fields>current_owner,watch_list</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>false</send_self>
         <sms_alternate/>
         <style/>
-        <subject>AP-IQ: Update ${number} ${supplier} invoice number ${supplier_invoice_number}</subject>
+        <subject>AP-IQ: ${number} ${supplier} invoice number ${supplier_invoice_number}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>macqueena</sys_created_by>
@@ -58,7 +66,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f6032a994f39c300721734828110c7b0</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Invoice Query to Operations</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
@@ -66,8 +74,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
         <sys_update_name>sysevent_email_action_f6032a994f39c300721734828110c7b0</sys_update_name>
-        <sys_updated_by>macqueena</sys_updated_by>
-        <sys_updated_on>2017-11-10 11:13:13</sys_updated_on>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-27 13:55:40</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

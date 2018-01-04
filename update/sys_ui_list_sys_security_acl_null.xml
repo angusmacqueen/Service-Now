@@ -4,92 +4,137 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142afc0a0006415d0ff2564d060a08</sys_id>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>a21ad33737a28700557f772a53990ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>operation</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142afd0a0006415b21b31e41020e93</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>type</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142afd0a00064173370802e7de6e23</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>active</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>261ad33737a28700557f772a53990ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>admin_overrides</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>a61ad33737a28700557f772a53990ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>advanced</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142aff0a0006417383bbf6f8ddf740</sys_id>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>2a1ad33737a28700557f772a53990ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
+            <element>condition</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142b000a00064161162ad23f037a9c</sys_id>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>aa1ad33737a28700557f772a53990ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">a2142abb0a0006412039233d9df47c31</list_id>
+            <element>description</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2011-04-29 16:25:21</sys_created_on>
-            <sys_id>a2142b000a000641560954eb50cc2d5d</sys_id>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>2e1ad33737a28700557f772a53990ea4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2011-04-29 16:25:21</sys_updated_on>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>operation</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>ae1ad33737a28700557f772a53990ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>script</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>221ad33737a28700557f772a53990ea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="sys_security_acl" element="NULL" name="sys_security_acl" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">ae1ad33737a28700557f772a53990ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>Simonco</sys_created_by>
+            <sys_created_on>2017-11-27 16:20:56</sys_created_on>
+            <sys_id>a21ad33737a28700557f772a53990ea5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Simonco</sys_updated_by>
+            <sys_updated_on>2017-11-27 16:20:56</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

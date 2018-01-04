@@ -59,9 +59,9 @@
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
-        <sys_update_name>sys_dictionary_x_9004_invoice_que_supplier_null</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-09-07 09:05:10</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_9004_invoice_que_supplier_NULL</sys_update_name>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-27 16:15:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_old_reference_qualifier/>

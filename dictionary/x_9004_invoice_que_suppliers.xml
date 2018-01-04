@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Suppliers" max_length="40" name="x_9004_invoice_que_suppliers" type="collection">
+        <element attributes="import_attribute_name=Coda Supplier Account" label="Coda Supplier Account" max_length="40" name="u_coda_supplier_account" type="float"/>
+        <element attributes="import_attribute_name=Secondary Email Address,edge_encryption_enabled=true" label="Secondary Email Address" max_length="40" name="u_secondary_email_address" type="string"/>
+        <element attributes="import_attribute_name=Supplier Email address,edge_encryption_enabled=true" label="Supplier Email address" max_length="40" name="u_supplier_email_address" type="string"/>
+        <element attributes="import_attribute_name=Supplier Name,edge_encryption_enabled=true" label="Supplier Name" max_length="40" name="u_supplier_name" type="string"/>
+        <element attributes="import_attribute_name=Third Email Address,edge_encryption_enabled=true" label="Third Email Address" max_length="40" name="u_third_email_address" type="string"/>
+    </element>
+</database>

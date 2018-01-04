@@ -7,7 +7,8 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <collection>x_9004_invoice_que_invoice_query_table</collection>
-        <condition table="x_9004_invoice_que_invoice_query_table">commentsVALCHANGES^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+        <condition table="x_9004_invoice_que_invoice_query_table">commentsVALCHANGES^ORstateCHANGESTO3^EQ<item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -41,11 +42,11 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>query_admin</recipient_fields>
+        <recipient_fields>query_admin,watch_list</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
-        <send_self>true</send_self>
+        <send_self>false</send_self>
         <sms_alternate/>
         <style/>
         <subject>AP-IQ Update ${number} - Supplier: ${supplier} - Supplier Invoice Number: ${supplier_invoice_number}</subject>
@@ -56,7 +57,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>95f53a83376943002ae55ad843990e13</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Invoice Query Update</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
@@ -64,8 +65,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
         <sys_update_name>sysevent_email_action_95f53a83376943002ae55ad843990e13</sys_update_name>
-        <sys_updated_by>macqueena</sys_updated_by>
-        <sys_updated_on>2017-11-09 15:58:11</sys_updated_on>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-27 14:01:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

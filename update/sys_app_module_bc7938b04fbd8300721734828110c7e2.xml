@@ -6,7 +6,7 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_9004_invoice_que_invoice_query_table">stateNOT IN-5,1,2,9,8^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="-5,1,2,9,8"/>
+        <filter table="x_9004_invoice_que_invoice_query_table">state=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -22,7 +22,7 @@
         <populate_view/>
         <query/>
         <report/>
-        <roles>x_9004_invoice_que.user,x_9004_invoice_que.mgr,x_9004_invoice_que.adm</roles>
+        <roles>x_9004_invoice_que.user,x_9004_invoice_que.mgr,x_9004_invoice_que.adm,x_9004_invoice_que.ops</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -31,7 +31,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>bc7938b04fbd8300721734828110c7e2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Invoice Queries Closed</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
@@ -39,8 +39,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
         <sys_update_name>sys_app_module_bc7938b04fbd8300721734828110c7e2</sys_update_name>
-        <sys_updated_by>macqueena</sys_updated_by>
-        <sys_updated_on>2017-11-10 12:18:09</sys_updated_on>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2017-11-26 12:05:40</sys_updated_on>
         <timeline_page/>
         <title>Invoice Queries Closed</title>
         <u_basic_module/>
