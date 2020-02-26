@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="business_activity_description" label="Business Activity Description" language="en" table="x_9004_invoice_que_business_activity">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>business_activity_description</element>

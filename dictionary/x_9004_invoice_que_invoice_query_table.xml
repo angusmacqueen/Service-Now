@@ -1,83 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="email_client=true,text_index_translations=true,tree_picker=true" audit="true" display="true" extends="task" label="Invoice Query Table" max_length="40" name="x_9004_invoice_que_invoice_query_table" sizeclass="479" type="collection">
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,text_index_translations=true,hasLabels=true,tree_picker=true" audit="true" display="true" extends="task" label="Invoice Query Table" max_length="40" name="x_9004_invoice_que_invoice_query_table" sizeclass="41611" type="collection">
         <element label="Amount in Query" mandatory="true" max_length="15" name="amount_in_query" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Amount in Query Currency" mandatory="true" max_length="40" name="amount_in_query_currency" type="choice">
             <choice>
-                <element label="CAN" sequence="0" value="CAN"/>
-                <element label="GBP" sequence="1" value="GBP"/>
-                <element label="EUR" sequence="2" value="EUR"/>
-                <element label="JPY" sequence="3" value="JPY"/>
-                <element label="PHP" sequence="4" value="PHP"/>
-                <element label="USD" sequence="5" value="USD"/>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive="true" inactive_on_update="true" label="SKN" sequence="0" value="SKN"/>
+                <element inactive_on_update="false" label="CAN" sequence="1" value="CAN"/>
+                <element inactive_on_update="false" label="CNY" sequence="2" value="CNY"/>
+                <element inactive_on_update="false" label="EUR" sequence="3" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="4" value="GBP"/>
+                <element inactive_on_update="false" label="HKD" sequence="5" value="HKD"/>
+                <element inactive_on_update="false" label="JPY" sequence="6" value="JPY"/>
+                <element inactive_on_update="false" label="PHP" sequence="7" value="PHP"/>
+                <element inactive_on_update="false" label="SGD" sequence="8" value="SGD"/>
+                <element inactive_on_update="false" label="USD" sequence="9" value="USD"/>
+                <element inactive_on_update="false" label="ZAR" sequence="10" value="ZAR"/>
+                <element inactive_on_update="false" label="THB" sequence="11" value="THB"/>
+                <element inactive_on_update="false" label="KRW" sequence="12" value="KRW"/>
+                <element inactive_on_update="false" label="NZD" sequence="13" value="NZD"/>
+                <element inactive_on_update="false" label="INR" sequence="14" value="INR"/>
+                <element inactive_on_update="false" label="SEK" sequence="15" value="SEK"/>
+                <element inactive_on_update="false" label="TWD" sequence="16" value="TWD"/>
+                <element inactive_on_update="false" label="MYR" sequence="17" value="MYR"/>
+                <element inactive_on_update="false" label="CAD" sequence="18" value="CAD"/>
+                <element inactive_on_update="false" label="LKR" sequence="19" value="LKR"/>
+                <element inactive_on_update="false" label="CHF" sequence="20" value="CHF"/>
             </choice>
         </element>
         <element attributes="format=none,ref_auto_completer=AJAXTableCompleter,ref_ac_columns_search=true,ref_ac_columns=business_activity_description,ref_ac_order_by=site_number" label="Business Activity" mandatory="true" max_length="32" name="business_activity" reference="x_9004_invoice_que_business_activity" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Charge Type" mandatory="true" max_length="40" name="charge_type" type="string">
             <choice>
-                <element label="BAF" sequence="0" value="BAF"/>
-                <element label="CAF" sequence="1" value="CAF"/>
-                <element label="Carrier Security" sequence="2" value="Carrier Security"/>
-                <element label="Customs" sequence="3" value="Customs"/>
-                <element label="Demurrage" sequence="4" value="Demurrage"/>
-                <element label="Detention" sequence="5" value="Detention"/>
-                <element label="Docs Fee" sequence="6" value="Docs Fee"/>
-                <element label="Haulage" sequence="7" value="Haulage"/>
-                <element label="MFRT" sequence="8" value="MFRT"/>
-                <element label="Ocean Freight" sequence="9" value="Ocean Freight"/>
-                <element label="LO/LO" sequence="10" value="LO/LO"/>
-                <element label="Low Sulphur" sequence="11" value="Low Sulphur"/>
-                <element label="Storage" sequence="12" value="Storage"/>
-                <element label="Terminal Handling" sequence="13" value="Terminal Handling"/>
-                <element label="Waiting Time" sequence="14" value="Waiting Time"/>
-                <element label="Multiple/Other" sequence="15" value="Multiple/Other"/>
+                <element inactive="true" inactive_on_update="true" label="ABL - Charge Non Transport" sequence="0" value="ABL - Charge Non Transport"/>
+                <element inactive_on_update="false" label="BAF" sequence="0" value="BAF"/>
+                <element inactive="true" inactive_on_update="true" label="ABL Purchase Order Query" sequence="1" value="ABL Purchase Order Query"/>
+                <element inactive_on_update="false" label="THC" sequence="1" value="THC"/>
+                <element inactive_on_update="false" label="CAF" sequence="2" value="CAF"/>
+                <element inactive_on_update="false" label="Carrier Security" sequence="3" value="Carrier Security"/>
+                <element inactive_on_update="false" label="Customs" sequence="4" value="Customs"/>
+                <element inactive_on_update="false" label="Demurrage" sequence="5" value="Demurrage"/>
+                <element inactive_on_update="false" label="Detention" sequence="6" value="Detention"/>
+                <element inactive_on_update="false" label="Docs Fee" sequence="7" value="Docs Fee"/>
+                <element inactive_on_update="false" label="Haulage" sequence="8" value="Haulage"/>
+                <element inactive_on_update="false" label="MFRT" sequence="9" value="MFRT"/>
+                <element inactive_on_update="false" label="Ocean Freight" sequence="10" value="Ocean Freight"/>
+                <element inactive_on_update="false" label="LO/LO" sequence="11" value="LO/LO"/>
+                <element inactive_on_update="false" label="Low Sulphur" sequence="12" value="Low Sulphur"/>
+                <element inactive_on_update="false" label="Storage" sequence="13" value="Storage"/>
+                <element inactive_on_update="false" label="Terminal Handling" sequence="14" value="Terminal Handling"/>
+                <element inactive_on_update="false" label="Waiting Time" sequence="15" value="Waiting Time"/>
+                <element inactive_on_update="false" label="Multiple/Other" sequence="16" value="Multiple/Other"/>
+                <element inactive_on_update="false" label="ABL Charge - non Transport" sequence="17" value="ABL Charge - non Transport"/>
+                <element inactive_on_update="false" label="Fuel Surcharge" sequence="18" value="Fuel Surcharge"/>
             </choice>
         </element>
         <element label="Operations Contact" mandatory="true" max_length="32" name="current_owner" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="40" name="curreny" type="string">
             <choice>
-                <element label="AUD" sequence="0" value="AUD"/>
-                <element label="CAD" sequence="1" value="CAD"/>
-                <element label="CNY" sequence="2" value="CNY"/>
-                <element label="DKK" sequence="3" value="DKK"/>
-                <element label="EUR" sequence="4" value="EUR"/>
-                <element label="GBP" sequence="5" value="GBP"/>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="CAD" sequence="1" value="CAD"/>
+                <element inactive_on_update="false" label="CNY" sequence="2" value="CNY"/>
+                <element inactive_on_update="false" label="DKK" sequence="3" value="DKK"/>
+                <element inactive_on_update="false" label="EUR" sequence="4" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="5" value="GBP"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Customer" mandatory="true" max_length="100" name="customer" type="choice">
             <choice>
-                <element label="Arcadia" sequence="0" value="Arcadia"/>
-                <element label="Denso" sequence="0" value="Denso"/>
-                <element label="Neill Tools" sequence="0" value="Neill Tools"/>
-                <element label="B&amp;Q" sequence="1" value="B&amp;Q"/>
-                <element label="Bathstore" sequence="2" value="Bathstore"/>
-                <element label="Brother" sequence="3" value="Brother"/>
-                <element label="Clarks" sequence="4" value="Clarks"/>
-                <element label="Haier" sequence="5" value="Haier"/>
-                <element label="Halfords" sequence="6" value="Halfords"/>
-                <element label="Koyo" sequence="7" value="Koyo"/>
-                <element label="Makita" sequence="8" value="Makita"/>
-                <element label="Mars" sequence="9" value="Mars"/>
-                <element label="Morrisons" sequence="10" value="Morrisons"/>
-                <element label="Philips" sequence="11" value="Philips"/>
-                <element label="Samsung" sequence="12" value="Samsung"/>
-                <element label="SCC" sequence="13" value="SCC"/>
-                <element label="Screwfix" sequence="14" value="Screwfix"/>
-                <element label="Solent" sequence="15" value="Solent"/>
-                <element label="Sony" sequence="16" value="Sony"/>
-                <element label="Other" sequence="17" value="Other"/>
+                <element inactive_on_update="false" label="Arcadia" sequence="0" value="Arcadia"/>
+                <element inactive="true" inactive_on_update="true" label="Customer A" sequence="0" value="Customer A"/>
+                <element inactive_on_update="false" label="Astra Zeneca" sequence="1" value="Astra Zeneca"/>
+                <element inactive="true" inactive_on_update="true" label="Customer B" sequence="1" value="Customer B"/>
+                <element inactive_on_update="false" label="Denso" sequence="2" value="Denso"/>
+                <element inactive="true" inactive_on_update="true" label="KINGFISHER" sequence="2" value="KINGFISHER"/>
+                <element inactive_on_update="false" label="B&amp;Q" sequence="3" value="B&amp;Q"/>
+                <element inactive_on_update="false" label="Bathstore" sequence="4" value="Bathstore"/>
+                <element inactive_on_update="false" label="Bayer" sequence="5" value="Bayer"/>
+                <element inactive_on_update="false" label="Brother" sequence="6" value="Brother"/>
+                <element inactive_on_update="false" label="Clarks" sequence="7" value="Clarks"/>
+                <element inactive_on_update="false" label="GSK" sequence="8" value="GSK"/>
+                <element inactive_on_update="false" label="Haier" sequence="9" value="Haier"/>
+                <element inactive_on_update="false" label="Halfords" sequence="10" value="Halfords"/>
+                <element inactive_on_update="false" label="Koyo" sequence="11" value="Koyo"/>
+                <element inactive_on_update="false" label="Makita" sequence="12" value="Makita"/>
+                <element inactive_on_update="false" label="Mars" sequence="13" value="Mars"/>
+                <element inactive_on_update="false" label="Neill Tools" sequence="14" value="Neill Tools"/>
+                <element inactive_on_update="false" label="Morrisons" sequence="15" value="Morrisons"/>
+                <element inactive_on_update="false" label="Mundipharma" sequence="16" value="Mundipharma"/>
+                <element inactive_on_update="false" label="Perry Ellis" sequence="17" value="Perry Ellis"/>
+                <element inactive_on_update="false" label="Philips" sequence="18" value="Philips"/>
+                <element inactive_on_update="false" label="Reckitt Benckiser" sequence="19" value="Reckitt Benckiser"/>
+                <element inactive_on_update="false" label="Samsung" sequence="20" value="Samsung"/>
+                <element inactive_on_update="false" label="SCC" sequence="21" value="SCC"/>
+                <element inactive_on_update="false" label="Screwfix" sequence="22" value="Screwfix"/>
+                <element inactive_on_update="false" label="Solent" sequence="23" value="Solent"/>
+                <element inactive_on_update="false" label="Sony" sequence="24" value="Sony"/>
+                <element inactive_on_update="false" label="Spirit Aerosystems" sequence="25" value="Spirit Aerosystems"/>
+                <element inactive_on_update="false" label="Other" sequence="26" value="Other"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Customer Name - please enter carefully" max_length="100" name="customer_name" type="string"/>
         <element label="Invoice Value" mandatory="true" max_length="15" name="invoice_value" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Invoice Value Currency" mandatory="true" max_length="40" name="invoice_value_currency" type="choice">
             <choice>
-                <element label="CAD" sequence="0" value="CAD"/>
-                <element label="GBP" sequence="1" value="GBP"/>
-                <element label="EUR" sequence="2" value="EUR"/>
-                <element label="JPY" sequence="3" value="JPY"/>
-                <element label="PHP" sequence="4" value="PHP"/>
-                <element label="USD" sequence="5" value="USD"/>
+                <element inactive_on_update="false" label="AUD" sequence="0" value="AUD"/>
+                <element inactive_on_update="false" label="CAD" sequence="1" value="CAD"/>
+                <element inactive_on_update="false" label="CNY" sequence="2" value="CNY"/>
+                <element inactive_on_update="false" label="EUR" sequence="3" value="EUR"/>
+                <element inactive_on_update="false" label="GBP" sequence="4" value="GBP"/>
+                <element inactive_on_update="false" label="HKD" sequence="5" value="HKD"/>
+                <element inactive_on_update="false" label="JPY" sequence="6" value="JPY"/>
+                <element inactive_on_update="false" label="PHP" sequence="7" value="PHP"/>
+                <element inactive_on_update="false" label="SGD" sequence="8" value="SGD"/>
+                <element inactive_on_update="false" label="USD" sequence="9" value="USD"/>
+                <element inactive_on_update="false" label="ZAR" sequence="10" value="ZAR"/>
+                <element inactive_on_update="false" label="THB" sequence="11" value="THB"/>
+                <element inactive_on_update="false" label="KRW" sequence="12" value="KRW"/>
+                <element inactive_on_update="false" label="NZD" sequence="13" value="NZD"/>
+                <element inactive_on_update="false" label="INR" sequence="14" value="INR"/>
+                <element inactive_on_update="false" label="SEK" sequence="15" value="SEK"/>
+                <element inactive_on_update="false" label="TWD" sequence="16" value="TWD"/>
+                <element inactive_on_update="false" label="MYR" sequence="17" value="MYR"/>
+                <element inactive_on_update="false" label="LKR" sequence="18" value="LKR"/>
             </choice>
         </element>
         <element calculation="&quot;https://yusenlogisticsdev.service-now.com/x_9004_invoice_que_invoice_query_table.do?sys_id=&quot; + current.sys_id" label="URL for Query" max_length="1024" name="iq_url" type="url" virtual="true"/>
@@ -91,12 +134,19 @@
         <element label="Query Type" mandatory="true" max_length="32" name="query_type" reference="x_9004_invoice_que_query_type" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution Code" max_length="40" name="resolution_code" type="string">
             <choice>
-                <element label="Ops - Accrual Adjusted" sequence="0" value="Ops - Accrual Adjusted"/>
-                <element label="Ops - Costs Entered" sequence="1" value="Ops - Costs Entered"/>
-                <element label="Ops - Info Provided" sequence="2" value="Ops - Info Provided"/>
-                <element label="Ops - Variance Approved" sequence="3" value="Ops - Variance Approved"/>
-                <element label="Supp - Credit Received" sequence="4" value="Supp - Credit Received"/>
-                <element label="Supp - Info Provided" sequence="5" value="Supp - Info Provided"/>
+                <element inactive_on_update="false" label="AP - Doc rescanned / cancelled" sequence="0" value="AP - Doc rescanned / cancelled"/>
+                <element inactive="true" inactive_on_update="true" label="Test Code 1" sequence="0" value="Test Code 1"/>
+                <element inactive_on_update="false" label="Ops - Accrual Adjusted" sequence="1" value="Ops - Accrual Adjusted"/>
+                <element inactive="true" inactive_on_update="true" label="Test Code 2" sequence="1" value="Test Code 2"/>
+                <element inactive="true" inactive_on_update="true" label="Credit Note received from Supplier" sequence="2" value="Credit Note received from Supplier"/>
+                <element inactive_on_update="false" label="Ops - Costs Entered" sequence="2" value="Ops - Costs Entered"/>
+                <element inactive="true" inactive_on_update="true" label="Information Provided from Operator" sequence="3" value="Information Provided from Operator"/>
+                <element inactive_on_update="false" label="Ops - Info Provided" sequence="3" value="Ops - Info Provided"/>
+                <element inactive_on_update="false" label="Ops - Variance Approved" sequence="4" value="Ops - Variance Approved"/>
+                <element inactive="true" inactive_on_update="true" label="Variance Approved" sequence="4" value="Variance Approved"/>
+                <element inactive="true" inactive_on_update="true" label="Ops - Accrual Raised" sequence="5" value="Ops - Accrual Raised"/>
+                <element inactive_on_update="false" label="Supp - Credit Received" sequence="5" value="Supp - Credit Received"/>
+                <element inactive_on_update="false" label="Supp - Info Provided" sequence="6" value="Supp - Info Provided"/>
             </choice>
         </element>
         <element attributes="format=none,ref_auto_completer=AJAXTableCompleter,ref_ac_columns_search=true,ref_ac_columns=site_description" label="Site" mandatory="true" max_length="32" name="site" reference="x_9004_invoice_que_site" type="reference"/>
@@ -105,8 +155,9 @@
         <element attributes="edge_encryption_enabled=true" label="Invoice Number" mandatory="true" max_length="40" name="supplier_invoice_number" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Waiting For" max_length="40" name="waiting_for" type="choice">
             <choice>
-                <element label="Operations" sequence="0" value="Operations"/>
-                <element label="Supplier" sequence="1" value="Supplier"/>
+                <element inactive="true" inactive_on_update="true" label="Active" sequence="0" value="Active"/>
+                <element inactive_on_update="false" label="Operations" sequence="0" value="Operations"/>
+                <element inactive_on_update="false" label="Supplier" sequence="1" value="Supplier"/>
             </choice>
         </element>
     </element>

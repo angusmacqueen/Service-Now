@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="site_number" label="Site Number" language="en" table="x_9004_invoice_que_site">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>site_number</element>

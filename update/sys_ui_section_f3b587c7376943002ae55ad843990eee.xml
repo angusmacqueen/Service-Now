@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Attachments" section_id="f3b587c7376943002ae55ad843990eee" sys_domain="global" table="" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>REL.x_9004_invoice_que_invoice_query_table.REL:b9edf0ca0a0a0b010035de2d6b579a03</element>

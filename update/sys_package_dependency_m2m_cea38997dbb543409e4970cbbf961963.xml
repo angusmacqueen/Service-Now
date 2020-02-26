@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Execution Plan Plugin" source="com.glide.execution_plan">f3c6a8f04a36231f00633855955abeae</dependency>
+        <min_version/>
+        <sys_created_by>macqueena</sys_created_by>
+        <sys_created_on>2017-10-19 09:19:34</sys_created_on>
+        <sys_id>cea38997dbb543409e4970cbbf961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_updated_by>macqueena</sys_updated_by>
+        <sys_updated_on>2017-10-19 09:19:34</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

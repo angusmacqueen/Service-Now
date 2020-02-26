@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="AP-IQ: Open Query List At Risk">6acc01dd37fec700557f772a53990e82</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>Simonco</sys_created_by>
+        <sys_created_on>2018-05-23 07:05:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>764cbc30dbd253009e4970cbbf9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6acc01dd37fec700557f772a53990e82</sys_name>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_update_name>sys_report_users_groups_764cbc30dbd253009e4970cbbf9619a3</sys_update_name>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2018-05-23 07:05:08</sys_updated_on>
+        <user_id display_value="Simon Collier">a68e98c337624700557f772a53990ed2</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b6a643fd4a36232801a2a555d2f6497f</instance_id>
+        <instance_name>yusenlogistics</instance_name>
+        <name>sys_report_users_groups_764cbc30dbd253009e4970cbbf9619a3</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="AP-IQ: Open Query List At Risk">6acc01dd37fec700557f772a53990e82</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>Simonco</sys_created_by><sys_created_on>2018-05-23 07:05:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>764cbc30dbd253009e4970cbbf9619a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6acc01dd37fec700557f772a53990e82</sys_name><sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope><sys_update_name>sys_report_users_groups_764cbc30dbd253009e4970cbbf9619a3</sys_update_name><sys_updated_by>Simonco</sys_updated_by><sys_updated_on>2018-05-23 07:05:08</sys_updated_on><user_id display_value="Simon Collier">a68e98c337624700557f772a53990ed2</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-1470904182</payload_hash>
+        <record_name>6acc01dd37fec700557f772a53990e82</record_name>
+        <reverted_from/>
+        <source>9d15059bdbb543409e4970cbbf9619b6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Simonco</sys_created_by>
+        <sys_created_on>2018-05-23 07:05:09</sys_created_on>
+        <sys_id>324cbc30dbd253009e4970cbbf9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1638bd0d48f0000001</sys_recorded_at>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2018-05-23 07:05:09</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>3a4cbc30efd25300c44145a34fe67fa4</update_guid>
+        <update_guid_history>3a4cbc30efd25300c44145a34fe67fa4:-1470904182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>EmmersoS</sys_created_by>
+        <sys_created_on>2019-04-03 07:10:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>2a6d25ab1bd84a68826f6105b18b8571</sys_id>
+        <sys_metadata>764cbc30dbd253009e4970cbbf9619a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6acc01dd37fec700557f772a53990e82</sys_name>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_parent display_value="AP-IQ: Open Query List At Risk">6acc01dd37fec700557f772a53990e82</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_scope_delete display_value="">293db199ba944c8f87aa59fc36f4a459</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_764cbc30dbd253009e4970cbbf9619a3</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_764cbc30dbd253009e4970cbbf9619a3">324cbc30dbd253009e4970cbbf9619a5</sys_update_version>
+        <sys_updated_by>EmmersoS</sys_updated_by>
+        <sys_updated_on>2019-04-03 07:10:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

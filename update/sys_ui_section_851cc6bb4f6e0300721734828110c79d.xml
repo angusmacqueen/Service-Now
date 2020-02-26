@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="851cc6bb4f6e0300721734828110c79d" sys_domain="global" table="x_9004_invoice_que_invoice_query" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_index">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>supplier_invoice_number,customer</col_name_string>
         <index_col_name>cdeb6dfddb810300f5bdf91ebf961915,fd1d23be4ff14700721734828110c7f7</index_col_name>

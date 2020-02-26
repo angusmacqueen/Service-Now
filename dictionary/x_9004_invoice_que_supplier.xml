@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Supplier" max_length="40" name="x_9004_invoice_que_supplier" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Coda Supplier Account" mandatory="true" max_length="40" name="coda_supplier_account" type="string" unique="true"/>
         <element label="Secondary Email Address" max_length="100" name="secondary_email_address" type="string"/>

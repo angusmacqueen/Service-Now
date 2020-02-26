@@ -1,42 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="054b798537a1010054b6a3549dbe5d16" sys_domain="global" table="" version="3">
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>0</position>
-            <sys_created_by>macqueena</sys_created_by>
-            <sys_created_on>2017-10-06 13:53:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>33b587c7376943002ae55ad843990eee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="" name="NULL" sys_domain="global" view="Default view">054b798537a1010054b6a3549dbe5d16</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="Default view">02ae79c537a1010054b6a3549dbe5da6</sys_ui_section>
-            <sys_updated_by>macqueena</sys_updated_by>
-            <sys_updated_on>2017-10-06 13:53:46</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>macqueena</sys_created_by>
-            <sys_created_on>2017-10-06 13:53:46</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>f7b587c7376943002ae55ad843990eee</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="" name="NULL" sys_domain="global" view="Default view">054b798537a1010054b6a3549dbe5d16</sys_ui_form>
-            <sys_ui_section caption="Attachments" display_value="Attachments" name="NULL" sys_domain="global" view="Default view">f3b587c7376943002ae55ad843990eee</sys_ui_section>
-            <sys_updated_by>macqueena</sys_updated_by>
-            <sys_updated_on>2017-10-06 13:53:46</sys_updated_on>
-        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name/>
             <roles/>
             <sys_class_name>sys_ui_form</sys_class_name>
-            <sys_created_by>macqueena</sys_created_by>
-            <sys_created_on>2017-10-06 13:53:46</sys_created_on>
+            <sys_created_by/>
+            <sys_created_on/>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>054b798537a1010054b6a3549dbe5d16</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_overrides/>
             <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
@@ -44,10 +17,10 @@
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
             <sys_update_name>sys_ui_form_sections_054b798537a1010054b6a3549dbe5d16</sys_update_name>
-            <sys_updated_by>macqueena</sys_updated_by>
-            <sys_updated_on>2017-10-27 08:24:44</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-05-22 17:57:32</sys_updated_on>
             <sys_user/>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <view/>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_user_role_contains">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
         <contains display_value="import_admin" name="import_admin">4a6a6e710a0a0bc000e6426eac13db01</contains>
         <role display_value="x_9004_invoice_que.adm" name="x_9004_invoice_que.adm">21ead9dfdbf543409e4970cbbf961974</role>

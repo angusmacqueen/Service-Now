@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="sys_import_set_row" label="Invoice Query" max_length="40" name="x_9004_invoice_que_invoice_query" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Link to Invoice" max_length="40" name="link_to_invoice" type="string"/>
         <element attributes="import_attribute_name=Amount in Query" label="Amount in Query" max_length="40" name="u_amount_in_query" type="integer"/>

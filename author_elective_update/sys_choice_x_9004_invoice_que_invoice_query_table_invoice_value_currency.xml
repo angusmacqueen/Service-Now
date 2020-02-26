@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="invoice_value_currency" table="x_9004_invoice_que_invoice_query_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AUD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-02-14 11:38:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>562f41d537d4df00557f772a53990e5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-02-14 11:38:57</sys_updated_on>
+            <value>AUD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CAD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-12 15:34:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3a56de414f35c300721734828110c743</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-02-14 11:38:57</sys_updated_on>
+            <value>CAD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CNY</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-02-01 17:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9d79a3c5378c1b00557f772a53990ec6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-02-14 11:38:57</sys_updated_on>
+            <value>CNY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EUR</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-10-23 07:56:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>74e6d5a8dbc6c3409e4970cbbf9619a9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-01 11:26:31</sys_updated_on>
+            <value>EUR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GBP</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2017-10-23 07:56:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>78e6d5a8dbc6c3409e4970cbbf9619a8</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-01 11:26:31</sys_updated_on>
+            <value>GBP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HKD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-03-01 11:26:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d62c1602db2017409e4970cbbf961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-01 11:26:31</sys_updated_on>
+            <value>HKD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>JPY</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>6</sequence>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-12 15:34:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3e56de414f35c300721734828110c742</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-01 11:26:31</sys_updated_on>
+            <value>JPY</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PHP</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>7</sequence>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-12 15:34:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3256de414f35c300721734828110c742</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-01 11:26:31</sys_updated_on>
+            <value>PHP</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SGD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>8</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-03-13 13:16:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0f78ecca37bc1f40557f772a53990ec8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-13 13:16:49</sys_updated_on>
+            <value>SGD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>USD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>9</sequence>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-12 15:34:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b256de414f35c300721734828110c741</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-03-13 13:16:49</sys_updated_on>
+            <value>USD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ZAR</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>10</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-04-06 12:36:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8c55c4f9db1d57809e4970cbbf96190e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-04-06 12:36:04</sys_updated_on>
+            <value>ZAR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>THB</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>11</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-04-18 15:22:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e68e162ddbe11f809e4970cbbf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-04-18 15:22:44</sys_updated_on>
+            <value>THB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>KRW</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>12</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-05-11 09:50:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c32fab78db4a1b009e4970cbbf961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-05-11 09:50:59</sys_updated_on>
+            <value>KRW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NZD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>13</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-05-22 09:01:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a15d4c28375a1f00557f772a53990e50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-05-22 09:01:30</sys_updated_on>
+            <value>NZD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>INR</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>14</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-05-29 10:44:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c818a87adbdad30008987195ae961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-05-29 10:44:36</sys_updated_on>
+            <value>INR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SEK</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>15</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-05-31 15:31:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>380d731b4f1e5700e022ecd18110c751</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-05-31 15:31:56</sys_updated_on>
+            <value>SEK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TWD</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>16</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-06-05 11:11:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>944178054f22db00e022ecd18110c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-06-05 11:11:05</sys_updated_on>
+            <value>TWD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MYR</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>17</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-06-07 11:16:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>23858fa5dbae9f0008987195ae961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-06-07 11:16:00</sys_updated_on>
+            <value>MYR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>invoice_value_currency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LKR</label>
+            <language>en</language>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sequence>18</sequence>
+            <sys_created_by>iqadmin</sys_created_by>
+            <sys_created_on>2018-06-26 10:27:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ee903cbfdb3ad30079650e41ca9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-06-26 10:27:14</sys_updated_on>
+            <value>LKR</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>invoice_value_currency</element>
+            <name>x_9004_invoice_que_invoice_query_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>macqueena</sys_created_by>
+            <sys_created_on>2017-10-12 15:34:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f9d897f337a28700557f772a53990ef6</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>invoice_value_currency</sys_name>
+            <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+            <sys_update_name>sys_choice_x_9004_invoice_que_invoice_query_table_invoice_value_currency</sys_update_name>
+            <sys_updated_by>iqadmin</sys_updated_by>
+            <sys_updated_on>2018-05-22 09:01:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

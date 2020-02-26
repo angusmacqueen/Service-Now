@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="incident" relationship="70e80f390a0a0b1b0035a51d8bbfd32c" sys_domain="global" table="incident" version="2" view="service_desk">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>incident</name>
+            <parent>incident</parent>
+            <position/>
+            <relationship display_value="Incidents by Same Caller">70e80f390a0a0b1b0035a51d8bbfd32c</relationship>
+            <sum>false</sum>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Global">global</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2019-02-25 09:23:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Service Desk" name="service_desk">06eac7594a3623280131f3581e2f56a7</view>
+            <view_name>service_desk</view_name>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Global">global</application>
+        <comments/>
+        <file_path/>
+        <instance_id>b6a643fd4a36232801a2a555d2f6497f</instance_id>
+        <instance_name>yusenlogistics</instance_name>
+        <name>sys_ui_list_incident_70e80f390a0a0b1b0035a51d8bbfd32c_service_desk</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="incident" relationship="70e80f390a0a0b1b0035a51d8bbfd32c" sys_domain="global" table="incident" version="2" view="service_desk"><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>incident</name><parent>incident</parent><position/><relationship display_value="Incidents by Same Caller">70e80f390a0a0b1b0035a51d8bbfd32c</relationship><sum>false</sum><sys_class_name/><sys_created_by/><sys_created_on/><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id/><sys_mod_count/><sys_name/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2019-02-25 09:23:02</sys_updated_on><sys_user/><view display_value="Service Desk" name="service_desk">06eac7594a3623280131f3581e2f56a7</view><view_name>service_desk</view_name></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>1578008069</payload_hash>
+        <record_name>Incident.Incident</record_name>
+        <reverted_from/>
+        <source>d44a87f0dbcdf300f52f8a5039961993</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Simonco</sys_created_by>
+        <sys_created_on>2019-04-24 06:40:14</sys_created_on>
+        <sys_id>b5cc0b38db413700f52f8a50399619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16a4e12c60a0000001</sys_recorded_at>
+        <sys_updated_by>Simonco</sys_updated_by>
+        <sys_updated_on>2019-04-24 06:40:14</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>1dd5c9565fb36f001d3321adecd9bb11</update_guid>
+        <update_guid_history>1dd5c9565fb36f001d3321adecd9bb11:1578008069,d4d54956c5b36f00b385587191c5e1ab:1168961933,14d549562fb36f008c98b1080256c5a9:-1455147140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>EmmersoS</sys_created_by>
+        <sys_created_on>2019-07-18 08:13:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>035a9184b59f4325802ac92ab4205ac1</sys_id>
+        <sys_metadata>96eec7b137860740557f772a53990ed5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>incident</sys_name>
+        <sys_package display_value="Invoice Query" source="x_9004_invoice_que">5a3f4601db010300f5bdf91ebf9619ff</sys_package>
+        <sys_parent display_value="Incident">f3c5e1524a36231f0011c9604657697b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Invoice Query">5a3f4601db010300f5bdf91ebf9619ff</sys_scope>
+        <sys_scope_delete display_value="">293db199ba944c8f87aa59fc36f4a459</sys_scope_delete>
+        <sys_update_name>sys_ui_list_incident_70e80f390a0a0b1b0035a51d8bbfd32c_service_desk</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_incident_70e80f390a0a0b1b0035a51d8bbfd32c_service_desk">b5cc0b38db413700f52f8a50399619b3</sys_update_version>
+        <sys_updated_by>EmmersoS</sys_updated_by>
+        <sys_updated_on>2019-07-18 08:13:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_coda_supplier_account" table="x_9004_invoice_que_invoice_query">
         <active>true</active>
         <array>false</array>
+        <array_denormalized>false</array_denormalized>
         <attributes>import_attribute_name=CODA Supplier Account,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
@@ -25,6 +25,8 @@
         <element>u_coda_supplier_account</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
